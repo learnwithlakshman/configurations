@@ -1,0 +1,19 @@
+spring.data.mongodb.uri: mongodb://localhost/quizer-app       
+---
+eureka:
+   client:
+      serviceUrl:
+         defaultZone: http://localhost:8761/eureka/
+---
+spring:
+   boot:
+      admin:
+         client:
+            password: admin@123
+            username: admin
+---
+management:
+   endpoints:
+      web:
+         exposure:
+            include: '*'
