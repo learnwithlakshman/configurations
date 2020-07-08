@@ -1,1 +1,1 @@
-#spring.data.mongodb.uri: mongodb://localhost/quizer-app
+spring.data.mongodb.uri: mongodb://localhost/quizer-app

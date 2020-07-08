@@ -1,4 +1,4 @@
-spring.data.mongodb.uri: mongodb://localhost/quizer-app       
+     
 ---
 eureka:
    client:
